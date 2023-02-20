@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    height:100vh;
+    border:1px solid red;
+    
+}
+.box{
+    height: 30%;
+    width:30%;
+    border:1px solid palegreen;
+    /* margin-left: 10 */
+}
+.containerflex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+}
+#adder{
+    /* height:10%; */
+    width:5%;
+    box-shadow: 10px salmon;
+}
+.boxflex{
+    display:flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.listinput{
+    width: 60%;
+}
