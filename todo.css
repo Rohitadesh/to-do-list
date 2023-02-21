@@ -4,14 +4,14 @@
 }
 .container{
     height:100vh;
-    border:1px solid red;
+    /* border:1px    solid red; */
     
 }
 .box{
-    height: 30%;
-    width:30%;
-    border:1px solid palegreen;
-    /* margin-left: 10 */
+    height: 60%;
+    width:40%;
+    border:1px solid palegreen; 
+    /* box-shadow: 10px 10px black; */
 }
 .containerflex{
     display:flex;
@@ -24,10 +24,11 @@
     /* height:10%; */
     width:5%;
     box-shadow: 10px salmon;
+    /* list-style: none; */
 }
 .boxflex{
     display:flex;
-    flex-direction:row ;
+    flex-direction:column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -35,4 +36,18 @@
 
 .listinput{
     width: 60%;
+    list-style: none;
+}
+#box1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll  hidden;
+    /* scrollbar-width: hidden; */
+    /* border: 1px solid red; */
+    height:50%;
+    width:45%;
+}
+.inputbox{
+    display: flex;
 }
