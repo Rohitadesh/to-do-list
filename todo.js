@@ -1,14 +1,12 @@
-let input1=document.getElementById('listinput');
-console.log(input1)
+let input=document.querySelector("#input");
+let button=document.querySelector('#adder');
+let list_add=document.querySelector('#box1')
+// let span=document.querySelector('.span')
 
-let btn=document.getElementById('adder');
-let box1=document.querySelector('.box1');
-btn.addEventListener('click',dolist=>{
-    let p =document.createElement('span');
-    p.textContent=input1.value;
-    box1.appendChild(p);    
-
-
-
-});
-
+let make_list=function(){
+    let span=document.createElement('span')
+    span.innerHTML=input.value;
+    list_add.append(span);
+    input.value='';
+}
+button.addEventListener('click',make_list)
